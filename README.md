@@ -37,3 +37,8 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 ---
 
 Happy coding!
+
+Purpose of the project:
+
+The purpose of my project is to create a basic e-commerce website consisting of three main pages: a homepage, a product catalog (gallery) page, and a contact us page. On the gallery page, customers can browse through the available products in the catalog, and on the contact us page, they can get in touch with us for any inquirie.
+
