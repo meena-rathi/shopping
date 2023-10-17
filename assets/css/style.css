@@ -104,6 +104,18 @@ main {
     text-align: right;
 }
 
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#image img {
+    width: 250px;
+    height: 200px;
+    line-height: 1em;
+    margin-top: 40px;
+}
+
 
 
 /* Mobile styles */
