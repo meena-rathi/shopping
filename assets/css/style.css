@@ -1,34 +1,21 @@
-/* Asterisk wildcard selector to override default styles added by the browser */
+/* Reset default styles */
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
+/* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
-    color: #3a3a3a;
     font-family: 'Lato', sans-serif;
+    color: #3a3a3a;
 }
 
 #logo-container a {
     text-decoration: none;
-}
-
-h1,
-h2,
-h3 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
-
-.hidden-heading {
-    display: none;
 }
 
 #header {
@@ -36,7 +23,6 @@ h3 {
     flex-direction: column;
     align-items: center;
     background-color: gray;
-    /* Set the background color to gray */
     padding: 10px;
     box-shadow: 0 2px 2px black;
     margin: 0;
@@ -46,27 +32,33 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-
     background-color: white;
     width: 100%;
     padding: 10px;
+}
 
+#nav-toggle:checked~nav #menu {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 #logo {
     margin-right: 10px;
     text-align: center;
-
 }
 
 #menu {
     list-style: none;
     display: flex;
     background-color: gray;
-    /* Set the background color directly here */
-
     padding: 0;
-
     margin: 0;
 }
 
@@ -75,9 +67,46 @@ h3 {
     font-size: 20px;
 }
 
-
 #menu li {
     margin-right: 80px;
     padding-top: 5px;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 767px) {
+    #menu {
+        display: none;
+        flex-direction: column;
+    }
+
+    #menu a {
+        text-align: center;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    #nav-toggle:checked~nav #menu {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #menu {
+        display: flex;
+        background-color: gray;
+    }
+
+    #menu a {
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 
 }
