@@ -30,7 +30,19 @@ body {
     border-bottom: 1px solid #3a3a3a;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: gray;
+    padding: 10px;
+    box-shadow: 0 2px 2px black;
+    z-index: 100;
+}
+
 #header {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,6 +108,7 @@ main {
     height: 400px;
     box-shadow: 2px gray;
     position: relative;
+    margin-top: 110px;
 }
 
 /*text css*/
@@ -184,4 +197,24 @@ section {
     main {
         margin-top: 5px;
     }
+}
+
+footer {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#footer-icon {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    font-size: 20px;
+
+}
+
+#footer-icon li {
+    margin-right: 80px;
+    padding-top: 5px;
 }
