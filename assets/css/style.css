@@ -72,6 +72,17 @@ body {
     padding-top: 5px;
 }
 
+main {
+    background-color: green;
+}
+
+#banner {
+    background: url("../images/banner.webp")no-repeat center center/cover;
+    width: 100%;
+    height: 400px;
+    box-shadow: 2px gray;
+}
+
 /* Mobile styles */
 @media screen and (max-width: 767px) {
     #menu {
