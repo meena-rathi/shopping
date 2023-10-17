@@ -18,6 +18,18 @@ body {
     text-decoration: none;
 }
 
+#logo-container h1 {
+    color: brown;
+}
+
+#menu a {
+    color: white;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 #header {
     display: flex;
     flex-direction: column;
@@ -73,7 +85,7 @@ body {
 }
 
 main {
-    background-color: green;
+    background-color: white;
     margin-bottom: 2px;
 }
 
@@ -105,16 +117,20 @@ main {
 }
 
 section {
+
     display: flex;
     justify-content: space-evenly;
+
 }
 
 .image {
     flex: 1;
     margin: 10px;
+
 }
 
 .image img {
+    box-shadow: 2px 2px 2px 2px rgba(233, 11, 11, 0.5);
     width: 100%;
     height: auto;
     line-height: 1em;
