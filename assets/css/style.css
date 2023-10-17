@@ -74,6 +74,7 @@ body {
 
 main {
     background-color: green;
+    margin-bottom: 2px;
 }
 
 /*vover banner*/
@@ -145,5 +146,9 @@ main {
     #text {
         width: 300px;
         right: 50px;
+    }
+
+    main {
+        margin-top: 5px;
     }
 }
