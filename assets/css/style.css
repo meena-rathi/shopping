@@ -201,7 +201,7 @@ section {
 
 
 footer {
-    background-color: gray;
+    background-color: red;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -213,11 +213,12 @@ footer {
     color: green;
     padding: 0;
     display: flex;
-    font-size: 20px;
+    font-size: 40px;
 
 }
 
 #footer-icon li {
-    margin-right: 80px;
+    margin-right: 100px;
     padding-top: 5px;
+    color: green;
 }
