@@ -201,7 +201,7 @@ section {
 
 
 footer {
-    background-color: red;
+    background-color: gray;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -213,7 +213,7 @@ footer {
     color: green;
     padding: 0;
     display: flex;
-    font-size: 40px;
+    font-size: 30px;
 
 }
 
@@ -234,5 +234,5 @@ footer {
     width: 100%;
     height: auto;
     line-height: 1em;
-    margin-top: 10px;
+    margin-top: 400px;
 }
