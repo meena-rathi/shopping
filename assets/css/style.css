@@ -223,8 +223,12 @@ footer {
     color: green;
 }
 
-.gallery_img {
-    flex: 1;
+.row {
+    display: grid;
+}
+
+div.gallery_img {
+
     margin: 10px;
 
 }
