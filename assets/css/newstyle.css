@@ -227,28 +227,24 @@ footer {
 }
 
 .row {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
 }
 
-.gallery_img::after {
-    content: "";
-    clear: both;
-    display: table;
-    flex: 1;
+.gallery_img {
+
     margin: 10px;
-
-}
-
-.gallery_img img {
     box-shadow: 2px 2px 2px 2px green;
-    width: 100%;
+    width: calc(25% - 20px);
     height: auto;
     line-height: 1em;
-    margin-top: 140px;
+    margin-top: 200px;
+    margin-right: 400px;
+
 }
 
 #btn {
     margin-top: 10px;
+    background-color: red;
 }
