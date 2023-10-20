@@ -20,6 +20,7 @@ body {
 
 #logo-container h1 {
     color: rgb(97, 165, 42);
+
 }
 
 #menu a {
@@ -132,6 +133,8 @@ main {
 section {
 
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 
 }
@@ -154,6 +157,10 @@ section {
 
 /* Mobile styles */
 @media screen and (max-width: 767px) {
+    header {
+        padding: 10px;
+    }
+
     #menu {
         display: none;
         flex-direction: column;
@@ -170,9 +177,18 @@ section {
     }
 }
 
+/*larger screen*/
+
 @media screen and (min-width: 768px) {
-    .gallery {
-        grid-template-columns: 50% 50%;
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: gray;
+        padding: 10px;
+        box-shadow: 0 2px 2px black;
+        margin: 0;
     }
 
     #menu {
@@ -185,8 +201,9 @@ section {
         font-size: 20px;
     }
 
-    #menu>li {
-        padding-left: 1rem;
+    #menu li {
+        margin-right: 80px;
+        padding-top: 5px;
     }
 
     .nav-toggle-label {
@@ -199,13 +216,30 @@ section {
     }
 
     main {
-        margin-top: 5px;
+        margin-top: 10px;
+    }
+
+    /* Form */
+    #contact_us {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        bottom: 10px;
+    }
+
+    .data_field:hover {
+        border-color: #f16c6b;
     }
 }
 
 
 footer {
-    background-color: red;
+    background-color: gray;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -217,7 +251,7 @@ footer {
     color: green;
     padding: 0;
     display: flex;
-    font-size: 40px;
+    font-size: 30px;
 
 }
 
@@ -225,11 +259,133 @@ footer {
     margin-right: 100px;
     padding-top: 5px;
     color: green;
+
+}
+
+
+#contact_us {
+    margin-top: 140px;
+
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+
+/* #signup-form {
+    margin-left: 100px;
+    margin-bottom: 80px;
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 600px;
+
+    width: 100%;
+} */
+#signup-form {
+    color: #ffffff;
+
+    margin-bottom: 80px;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#data_field {
+    flex-direction: column;
+    flex: 1;
+    display: flex;
+}
+
+#signup-form>h2 {
+    color: #ec1010;
+    margin-bottom: 20px;
+}
+
+#message {
+    flex: 1;
+    margin-left: 20px;
+}
+
+#textarea {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.signup_input {
+    background: transparent;
+    color: #fafafa;
+
+    height: 25px;
+    margin: 1px 0 2px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.btn_submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+
+    margin-top: 10px;
+    width: 10%;
+
 }
 
 
 
-#btn {
-    color: red;
-    background-color: gray;
+
+
+/* .row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.gallery_img {
+    width: 100%;
+}
+
+.gallery_img img {
+
+    margin: 10px;
+    flex: 0 0 calc(25% - 20px);
+    box-shadow: 2px 2px 2px 2px green;
+    width: calc(25% - 20px);
+
+    height: auto;
+    line-height: 1em;
+    margin-top: 200px;
+
+
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+} */
+
+/*Map*/
+#map-container {
+    width: 100%;
+
+    height: 400px;
 }
