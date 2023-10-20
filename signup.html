@@ -23,7 +23,7 @@
       sizes="16x16"
       href="assets/favicon-zip/favicon-16x16.png"
     />
-    <link rel="stylesheet" href="assets/css/s.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
   <!--body-->
@@ -41,61 +41,64 @@
       </div>
       <nav>
         <ul id="menu">
-          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="signup.html" class="active">Sign Up</a></li>
         </ul>
       </nav>
     </header>
+
     <main>
       <section id="contact_us">
-        <h1>Contact Us</h1>
-        <form
-          id="signup-form"
-          method="POST"
-          action="https://formdump.codeinstitute.net"
-        >
-          <div id="data_field">
-            <label for="first_name">First Name:</label>
-            <input
-              type="text"
-              name="first_name"
-              id="first_name"
-              class="signup_input"
-              required
-            />
+        <div id="title_container">
+          <h2>Contact Us</h2>
+          <form
+            id="signup-form"
+            method="POST"
+            action="https://formdump.codeinstitute.net"
+          >
+            <div id="data_field">
+              <label for="first_name">First Name:</label>
+              <input
+                type="text"
+                name="first_name"
+                id="first_name"
+                class="signup_input"
+                required
+              />
+              <br />
+              <label for="last_name">Last Name:</label>
+              <input
+                type="text"
+                name="last_name"
+                id="last_name"
+                class="signup_input"
+                required
+              />
+              <br />
+              <label for="email">Email</label>
+              <input
+                type="text"
+                name="email"
+                id="email"
+                class="signup_input"
+                required
+              />
+            </div>
             <br />
-            <label for="last_name">Last Name:</label>
-            <input
-              type="text"
-              name="last_name"
-              id="last_name"
-              class="signup_input"
-              required
-            />
-            <br />
-            <label for="email">Email</label>
-            <input
-              type="text"
-              name="email"
-              id="email"
-              class="signup_input"
-              required
-            />
-          </div>
-          <br />
-          <div id="message">
-            <textarea
-              id="textarea"
-              name="textarea"
-              rows="6"
-              cols="60"
-            ></textarea>
-          </div>
-          <div id="btn">
-            <button type="submit" class="btn_submit">Submit</button>
-          </div>
-        </form>
+            <div id="message">
+              <textarea
+                id="textarea"
+                name="textarea"
+                rows="6"
+                cols="60"
+              ></textarea>
+            </div>
+            <div id="btn">
+              <button type="submit" class="btn_submit">Submit</button>
+            </div>
+          </form>
+        </div>
       </section>
     </main>
     <div id="map-container">

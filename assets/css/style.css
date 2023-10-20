@@ -222,18 +222,50 @@ section {
     /* Form */
     #contact_us {
         background-position: center;
-        position: relative;
+
+        top: 10px;
     }
 
     #signup-form {
-        max-width: 400px;
-        position: absolute;
+        max-width: 800px;
+        text-align: left;
+
+        display: flex;
         left: 10%;
-        bottom: 10px;
+        margin: 0 auto;
+        padding: 20px;
+        top: 2px;
     }
 
     .data_field:hover {
         border-color: #f16c6b;
+    }
+
+    #title_container {
+        text-align: center;
+    }
+
+    /* #contact_title {
+        color: rgb(195, 0, 255);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+*/
+    h2 {
+        text-align: center;
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    #map-container {
+        width: 100%;
+
+        height: 400px;
+        margin-top: 50px;
     }
 }
 
@@ -270,7 +302,7 @@ footer {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+
     align-items: center;
 
 }
@@ -301,6 +333,7 @@ footer {
     flex-direction: column;
     flex: 1;
     display: flex;
+
 }
 
 #signup-form>h2 {
@@ -311,6 +344,7 @@ footer {
 #message {
     flex: 1;
     margin-left: 20px;
+
 }
 
 #textarea {
