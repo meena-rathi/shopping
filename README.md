@@ -64,7 +64,24 @@ It is also contain a map.
 
 
 Feature:
-On the index page, I have designed a header that includes a logo and a menu bar with options for Home, Gallery, and Signup.Additionally, there is a banner with text in the body.
+Home page:
+Navigation Menu: Include a navigation menu to access other sections of the website.
+Banner:
+Social Icons: Display recognizable social media icons (e.g., Facebook, Twitter, Instagram) in the website's footer.
+Clickable Links: Make the social media icons clickable links that lead to your respective social media profiles.
+Social Media Integration: Ensure the links are properly configured to open in new tabs or windows, directing users to your social media pages.
+Maintain the same layout, positioning, and design for the footer and menu throughout the entire website.
+
+Gallery:
+Product list: Display a list of available products.
+"Add to Cart" Display (Non-Functional): Include a "Display-Only" "Add to Cart" button at the bottom of each product listing.
+
+Contact Us Page:
+Contact Information: Provide contact information such as an email address or contact form.
+Include a welcoming message inviting users to get in touch for inquiries or assistance.
+User-Friendly Design: Create a user-friendly page with clear contact details.
+It is also contain map.
+
 
 
 
