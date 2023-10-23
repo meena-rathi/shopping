@@ -42,6 +42,30 @@ Purpose of the project:
 
 The purpose of my project is to create a basic e-commerce website consisting of three main pages: a homepage, a product catalog (gallery) page, and a contact us page. On the gallery page, customers can browse through the available products in the catalog, and on the contact us page, they can get in touch with us for any inquirie.
 
+User Story:
+
+Home:
+When I visit the website, I am directed to the homepage.
+The homepage provide me a banner and adverstimet to the website's purpose and a navigation menu and contatin footer.
+It should have a visually appealing design to engage users.
+
+Gallery:
+I can access the product catalog (gallery) page from the homepage.
+On the product catalog page, I can view a list of available products.
+Each product listing includes the product image and at the bottom add to cart button("Add to Cart" button, even if it's for display purposes only.
+There are thumbnail images of each product.
+The page should be easy to navigate and visually appealing.
+
+contact Us:
+I can access the contact us page from the homepage.
+The contact us page provides contact information, such as an email address or contact form, for inquiries.
+It includes a brief message welcoming users to get in touch for questions or assistance.
+It is also contain a map.
+
+
 Feature:
 On the index page, I have designed a header that includes a logo and a menu bar with options for Home, Gallery, and Signup.Additionally, there is a banner with text in the body.
+
+
+
 
