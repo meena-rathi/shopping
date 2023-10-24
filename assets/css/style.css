@@ -19,9 +19,7 @@ body {
 }
 
 #logo-container h1 {
-    color: dark rgb(17, 88, 17) rgb(94, 145, 94);
-
-
+    color: green;
 }
 
 #menu a {
@@ -76,7 +74,7 @@ header {
 }
 
 #logo {
-    margin-right: 10px;
+    margin-right: 80px;
     text-align: center;
 }
 
@@ -94,7 +92,7 @@ header {
 }
 
 #menu li {
-    margin-right: 80px;
+    margin-right: 10px;
     padding-top: 5px;
 }
 
