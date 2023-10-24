@@ -19,7 +19,8 @@ body {
 }
 
 #logo-container h1 {
-    color: rgb(97, 165, 42);
+    color: dark rgb(17, 88, 17) rgb(94, 145, 94);
+
 
 }
 
@@ -140,8 +141,10 @@ section {
 }
 
 .image {
-    flex: 1;
-    margin: 10px;
+    flex: 2;
+    margin: 2px;
+
+    width: 250px;
 
 }
 
@@ -150,10 +153,15 @@ section {
     width: 100%;
     height: auto;
     line-height: 1em;
+    margin-right: 20px;
     margin-top: 10px;
 }
 
-
+#collection {
+    margin: 10px;
+    text-align: center;
+    color: dark green rgb(94, 145, 94);
+}
 
 /* Mobile styles */
 @media screen and (max-width: 767px) {
