@@ -30,6 +30,8 @@ body {
     border-bottom: 1px solid #3a3a3a;
 }
 
+
+
 header {
     position: fixed;
     top: 0;
@@ -131,6 +133,14 @@ main {
     color: rgb(2, 49, 2);
     font-weight: bold;
     text-align: right;
+}
+
+#category {
+    text-align: center;
+
+    padding: 0;
+    margin-top: 40px;
+
 }
 
 section {
@@ -243,6 +253,16 @@ section {
 
     main {
         margin-top: 10px;
+    }
+
+    .activee {
+        /* border-top: 1px solid #3a3a3a; */
+        box-shadow: 0 1px 0 0 rgb(184, 197, 184);
+        margin-bottom: 20px;
+        width: 60%;
+        align-items: center;
+        margin-top: 20;
+        margin-left: 280px;
     }
 
     /* Form */
