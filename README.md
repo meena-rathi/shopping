@@ -23,11 +23,10 @@ The contact us page provides contact information, such as an email address or co
 It includes a brief message welcoming users to get in touch for questions or assistance.
 It is also contain a map.
 
-
 **Feature:**
 Home page:
 Navigation Menu: Include a navigation menu to access other sections of the website.
-Banner:
+Banner: In side the home page user can view the adversitment of colection.
 Social Icons: Display recognizable social media icons (e.g., Facebook, Twitter, Instagram) in the website's footer.
 Clickable Links: Make the social media icons clickable links that lead to your respective social media profiles.
 Social Media Integration: Ensure the links are properly configured to open in new tabs or windows, directing users to your social media pages.
@@ -43,7 +42,6 @@ Include a welcoming message inviting users to get in touch for inquiries or assi
 User-Friendly Design: Create a user-friendly page with clear contact details.
 It is also contain map.
 
-
-
-
-
+<!-- Typography and colorscheme -->
+Font Family: The 'Lato' font family, a sans-serif typeface, has been selected for use across the website.
+Font Colors: The color scheme for text is primarily green and white.
