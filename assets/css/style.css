@@ -296,15 +296,10 @@ section {
         padding: 20px 0;
     }
 
-    /* #btn {
-        text-align: center;
-        display: center flex;
-        align-items: center;
-        justify-content: center;
-    } */
+
     .btn_submit {
         background-color: #fafafa;
-        color: #454b1b;
+
         width: 10%;
         position: absolute;
         margin-left: 80px;
@@ -313,6 +308,22 @@ section {
         top: 75%;
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
+    }
+
+    #thankyou {
+        display: none;
+    }
+
+    /* Style the "Thank You" message */
+    .message {
+        color: green;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    /* Show the message when it's targeted with an anchor link in the URL */
+    #thankyou:target {
+        display: block;
     }
 
     #map-container {
@@ -443,6 +454,7 @@ footer {
 
 .btn_submit {
     margin-top: 0;
+    border: 1px solid #fafafa;
     border-radius: 2px;
     padding: 1px 14px;
     font-size: 100%;
