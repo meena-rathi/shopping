@@ -48,6 +48,8 @@ Font Colors: The color scheme for text is primarily green and white.
 
 /*wireframe*/
 ![home page](assets/images/home.png)
+![home page](assets/images/gallery.png)
+![home page](assets/images/contactus.png)
 
 
 
