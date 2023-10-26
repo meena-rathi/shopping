@@ -45,3 +45,9 @@ It is also contain map.
 <!-- Typography and colorscheme -->
 Font Family: The 'Lato' font family, a sans-serif typeface, has been selected for use across the website.
 Font Colors: The color scheme for text is primarily green and white.
+
+/*wireframe*/
+![home page](assets/home.png)
+
+
+
