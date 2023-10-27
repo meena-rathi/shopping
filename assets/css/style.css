@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     font-family: 'Lato', sans-serif;
     color: #3a3a3a;
-    overflow-x: hidden;
+
 }
 
 #logo-container a {
@@ -155,6 +155,7 @@ section {
     justify-content: space-evenly;
 }
 
+
 .image {
     flex: 2;
     margin: 1px;
@@ -171,6 +172,24 @@ section {
     padding: 0;
     margin: 0;
 }
+
+/*
+.image {
+    /* line-height: 2;
+    margin-top: 150px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.image img {
+    margin: 2px;
+    height: auto;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(8, 207, 51);
+    width: 100%;
+    margin-top: 20px;
+} */
 
 #collection {
     margin: 10px;
@@ -224,9 +243,9 @@ section {
         column-count: 2;
     }
 
-    #signup-form {
+    /* #signup-form {
         max-width: 100%;
-    }
+    } */
 
     .signup_input {
         max-width: 100%;
@@ -241,15 +260,20 @@ section {
     }
 
     #contact_us {
-        width: 100%;
-        padding: 0;
-        margin: 0;
+        display: flex;
+        align-content: center;
+        max-width: 100%;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    #signup-form {
+        max-width: 100%;
+        padding: 10px;
     }
 
     #map-container {
         width: 100%;
-
-
     }
 }
 
@@ -306,6 +330,13 @@ section {
         margin-top: 10px;
     }
 
+    .img {
+        column-count: 4;
+        margin-top: 10px;
+        max-width: 500%;
+        padding: 0;
+    }
+
     .activee {
         /* border-top: 1px solid #3a3a3a; */
         box-shadow: 0 1px 0 0 rgb(184, 197, 184);
@@ -318,51 +349,35 @@ section {
 
     /* Form */
     #contact_us {
-        background-position: center;
-        display: flex;
-        flex-direction: row;
-        height: auto;
 
-        top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        max-width: 100%;
+        width: 100%;
+        padding: 0 20px;
         position: relative;
     }
 
     #signup-form {
 
-        max-width: 800px;
+        max-width: 100%;
+        width: 100%;
         text-align: left;
         flex: 1;
         height: 250px;
-
         display: flex;
-        left: 10%;
-        margin: 0 auto;
-        padding: 20px;
-        top: 2px;
-    }
-
-    .data_field:hover {
-        border-color: #f16c6b;
     }
 
     #title_container {
-        text-align: center;
-
         flex: 1;
     }
 
-    /* #contact_title {
-        color: rgb(195, 0, 255);
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100px;
-        margin-bottom: 20px;
-    }
-*/
     h2 {
         text-align: center;
+        justify-content: center;
         margin: 0;
         padding: 20px 0;
     }
@@ -376,14 +391,11 @@ section {
         margin-left: 80px;
         height: 10%;
         position: absolute;
-        top: 75%;
+        top: 70%;
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
 
-    #thankyou {
-        display: none;
-    }
 
     /* Style the "Thank You" message */
     .message {
@@ -392,16 +404,11 @@ section {
         text-align: center;
     }
 
-    /* Show the message when it's targeted with an anchor link in the URL */
-    #thankyou:target {
-        display: block;
-    }
-
     #map-container {
         width: 100%;
 
         height: 400px;
-        margin-top: 50px;
+        margin-top: 20px;
         padding: 15px 0;
     }
 }
@@ -434,38 +441,25 @@ footer {
 
 
 #contact_us {
+
     margin-top: 120px;
 
     padding: 20px 10% 0 10%;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-
-
     align-items: center;
-
+    margin-bottom: -50px;
 }
 
 
-/* #signup-form {
-    margin-left: 100px;
-    margin-bottom: 80px;
-    color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 600px;
 
-    width: 100%;
-} */
 #signup-form {
     color: #ffffff;
 
     margin-bottom: 80px;
     background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px;
+    padding: 10px;
 }
 
 #data_field {
@@ -482,7 +476,7 @@ footer {
 
 #message {
     flex: 1;
-    margin-left: 20px;
+    margin-left: 5px;
 
 }
 
@@ -503,32 +497,15 @@ footer {
     padding: 0 5px;
 }
 
-/* 
-#btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
 
-}
 
-.btn_submit {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 70px;
-
-    margin-top: 10px;
-    width: 10%;
-
-}
- */
 
 .btn_submit {
     margin-top: 0;
+    margin-bottom: 10px;
     border: 1px solid #fafafa;
     border-radius: 2px;
-    padding: 1px 14px;
+    padding: 1px 10px;
     font-size: 100%;
     height: 10%;
     background-color: #babbb3;
@@ -537,14 +514,6 @@ footer {
 
 }
 
-
-
-/* .row {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-*/
 .gallery_img {
     line-height: 2;
     margin-top: 150px;
@@ -552,10 +521,10 @@ footer {
     justify-content: space-between;
 }
 
+
 .gallery_img img {
     margin: 2px;
     padding: 10px;
-
     box-shadow: 2px 2px 2px 2px green;
     width: 100%;
     margin-top: 20px;
@@ -579,6 +548,5 @@ footer {
 /*Map*/
 #map-container {
     width: 100%;
-
     height: 400px;
 }
