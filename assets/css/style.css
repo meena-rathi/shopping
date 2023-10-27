@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     font-family: 'Lato', sans-serif;
     color: #3a3a3a;
+    overflow-x: hidden;
 }
 
 #logo-container a {
@@ -103,8 +104,15 @@ header {
 }
 
 main {
-    background-color: white;
+    /* background-color: rgb(121, 96, 96); */
     margin-bottom: 2px;
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    /* margin-top: 2px;
+    /*   Enable flex properties for child elements */
+    /* display: flex;
+    flex-direction: column; */
+
 }
 
 /*vover banner*/
@@ -156,7 +164,7 @@ section {
 .image img {
     box-shadow: 2px 2px 2px 2px green;
     width: 100%;
-    height: 200px;
+    height: auto;
     line-height: 1em;
     margin-right: 1px;
     margin-top: 10px;
@@ -197,7 +205,54 @@ section {
     #nav-toggle:checked~nav #menu {
         display: flex;
     }
+
+    #footer-icon li {
+        padding: 5px;
+        font-size: 20px;
+        /* Adjust the icon size as needed */
+    }
+
+    .gallery_img {
+        column-count: 2;
+    }
+
+    #banner {
+        margin-top: 100px;
+    }
+
+    .image {
+        column-count: 2;
+    }
+
+    #signup-form {
+        max-width: 100%;
+    }
+
+    .signup_input {
+        max-width: 100%;
+    }
+
+    .btn_submit {
+        max-width: 100%;
+    }
+
+    #message {
+        width: 100%;
+    }
+
+    #contact_us {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #map-container {
+        width: 100%;
+
+
+    }
 }
+
 
 /*larger screen*/
 
@@ -347,6 +402,7 @@ section {
 
         height: 400px;
         margin-top: 50px;
+        padding: 15px 0;
     }
 }
 
@@ -356,16 +412,11 @@ footer {
 
     border: 1px solid gray;
     border-radius: 5px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    color: green;
-    margin-top: 100px;
 }
 
 #footer-icon {
     list-style: none;
+    justify-content: space-evenly;
     color: green;
     padding: 0;
     display: flex;
@@ -374,10 +425,10 @@ footer {
 }
 
 #footer-icon li {
-    margin-right: 50px;
-    padding-top: 20px;
-    color: green;
-    justify-content: center;
+
+    padding: 5px;
+    color: rgb(29, 31, 29);
+
 
 }
 
@@ -496,7 +547,7 @@ footer {
 */
 .gallery_img {
     line-height: 2;
-    margin-top: -40px;
+    margin-top: 150px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -504,10 +555,10 @@ footer {
 .gallery_img img {
     margin: 2px;
     padding: 10px;
-    flex-wrap: wrap;
+
     box-shadow: 2px 2px 2px 2px green;
     width: 100%;
-    margin-top: 180px;
+    margin-top: 20px;
 }
 
 
