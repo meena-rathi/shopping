@@ -46,10 +46,36 @@ It is also contain map.
 Font Family: The 'Lato' font family, a sans-serif typeface, has been selected for use across the website.
 Font Colors: The color scheme for text is primarily green and white.
 
-/*wireframe*/
+<!-- wireframe -->
 ![home page](assets/readme-doc/home.png)
 ![home page](assets/readme-doc/gallery.png)
 ![home page](assets/readme-doc/contactus.png)
 
+<!--Test cases -->
+Test Case1:
+1)Click on the <https://8000-meena-rathi-shopping-t5i0p7g8wj.us2.codeanyapp.com/index.html>.
+2)click on the menu bar "home"
+3)And the redirected to the home pgae.
+4)It shows the banner and categories iamges and footer.
+
+Test Case 2:
+1)Click on the <https://8000-meena-rathi-shopping-t5i0p7g8wj.us2.codeanyapp.com/index.html>.
+2)click on the menu bar "Galley"
+3)And the redirected to the Gallery page.
+4)It shows the categories of 8 images and footer.
 
 
+Test Case 3:
+1)Click on the <https://8000-meena-rathi-shopping-t5i0p7g8wj.us2.codeanyapp.com/index.html>.
+2)click on the menu bar "SignUp"
+3)And the redirected to the Signup page.
+4)Fill out the form and then click on the submit.
+5)this page redirected to confirmation page.
+
+
+Test Case 4:
+1)Click on the <https://8000-meena-rathi-shopping-t5i0p7g8wj.us2.codeanyapp.com/index.html>.
+2)click on the menu bar "SignUp"
+3)And the redirected to the Signup page.s
+4)click on the footer icon.
+5)it redirected to new window(fb, twitter).
