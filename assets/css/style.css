@@ -69,20 +69,6 @@ header {
     margin: 0;
 }
 
-/*menu navigation*/
-#nav-toggle:checked~nav #menu {
-    display: block;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 2rem;
-    cursor: pointer;
-}
-
 /*menu item*/
 #menu {
     list-style: none;
@@ -179,28 +165,25 @@ section {
 /*Mobile styles*/
 @media screen and (max-width: 767px) {
     header {
-        padding: 10px;
+        padding: 50px;
     }
 
     #menu {
-        display: none;
-        text-align: center;
-        flex-direction: column;
+        display: flex;
+        background-color: light #be2222;
     }
 
     #menu a {
-        text-align: center;
-        padding: 10px;
-        border-bottom: 1px solid #ccc;
-    }
-
-    #nav-toggle-label {
-        display: block;
-        font-size: 1rem;
-    }
-
-    #nav-toggle:checked~nav #menu {
+        text-decoration: none;
+        color: #8e928e;
+        font-size: 20px;
         display: flex;
+        padding: 0;
+    }
+
+    #menu li {
+        margin-right: 10px;
+        padding-top: 20px;
     }
 
     #footer-icon li {
@@ -213,7 +196,7 @@ section {
     }
 
     #banner {
-        margin-top: 100px;
+        margin-top: 160px;
     }
 
     .image {
@@ -245,6 +228,7 @@ section {
 
     #contact_us {
         display: flex;
+        margin-top: 50px;
         align-content: center;
         max-width: 100%;
         padding: 10px;
@@ -298,10 +282,6 @@ section {
     #menu li {
         margin-right: 30px;
         padding-top: 10px;
-    }
-
-    .nav-toggle-label {
-        display: none;
     }
 
     #text {
