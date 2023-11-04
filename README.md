@@ -51,6 +51,9 @@ Font Colors: The color scheme for text is primarily green and white.
 ![home page](assets/readme-doc/gallery.png)
 ![home page](assets/readme-doc/contactus.png)
 
+<!-- Technologies -->
+I have used 
+
 <!--Test cases -->
 Test Case1:
 1)Click on the <https://8000-meena-rathi-shopping-t5i0p7g8wj.us2.codeanyapp.com/index.html>.
@@ -79,3 +82,11 @@ Test Case 4:
 3)And the redirected to the Signup page.s
 4)click on the footer icon.
 5)it redirected to new window(fb, twitter).
+
+
+<!-- Supported Screen and browser: -->
+
+<!-- Deployment -->
+<!-- Github -->
+I made a GitHub repository and set up a Codeanywhere workspace, pasting the repository into the workspace for use.
+<!-- Github Pages -->
