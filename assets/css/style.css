@@ -162,6 +162,20 @@ section {
     color: #228B22
 }
 
+#collection1 {
+    margin: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: #228B22
+}
+
+#collection2 {
+    margin: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: #228B22
+}
+
 /*Mobile styles*/
 @media screen and (max-width: 767px) {
     header {
