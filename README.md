@@ -42,10 +42,13 @@ Font Colors: The color scheme for text is primarily green and white.
 ![home page](assets/readme-doc/contactus.png)
 
 **Technologies**
-I have used Codeanywhere worksapce for  developing the website, and Github.
+I have used Codeanywhere worksapce for developing the website, and Github.
 
 **Testing**
 1)Code Validation:
+1.1)<https://validator.w3.org/nu/?doc=https%3A%2F%2Fmeena-rathi.github.io%2Fshopping%2Findex.html>
+1.2)<https://validator.w3.org/nu/?doc=https%3A%2F%2Fmeena-rathi.github.io%2Fshopping%2Fgallery.html>
+1.)<https://validator.w3.org/nu/?doc=https%3A%2F%2Fmeena-rathi.github.io%2Fshopping%2Fsignup.html>
 
 **Test cases**
 Test Case1:
@@ -89,4 +92,9 @@ Test Case 4:
 **Deployment**
 Github
 I made a GitHub repository and set up a Codeanywhere workspace, pasting the repository into the workspace for use.
- Github Pages
+
+Github Pages
+
+**Credits**
+w3shool
+chatgpt
