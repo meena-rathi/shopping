@@ -107,7 +107,8 @@ main {
 
 /*text in picture*/
 #text {
-    background-color: light #808080;
+    background-color: #eedd82 #808080;
+    /* background-color: #4e4a4a; */
     font-size: 160%;
     position: absolute;
     bottom: 160px;

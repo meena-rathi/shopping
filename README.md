@@ -76,7 +76,12 @@ Test Case 4:
 5)it redirected to new window(fb, twitter).
 
 **Fixed Bugs**
-
+1)Menu bar icon aliged in mobile devices.
+2)Left and right padding aliged in mobile devices.
+3)Signup form redirecting to another page.
+4)Fixed Images Attributes.
+5)fixed css.
+6)fixed the footer aligment.
 **Supported Screen and browser**
 ![home page](assets/readme-doc/chromebrowser.JPG)
 ![home page](assets/readme-doc/miniipad_img.JPG)
