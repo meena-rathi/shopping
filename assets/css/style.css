@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Lato', sans-serif;
-    color: light #808080;
+    color: #808080;
 }
 
 #logo-container {
@@ -52,7 +52,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: light #808080;
+    background-color: #808080;
     padding: 10px;
     box-shadow: 0 2px 2px black;
     z-index: 100;
@@ -63,7 +63,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: light #808080;
+    background-color: #808080;
     padding: 10px;
     box-shadow: 0 2px 2px black;
     margin: 0;
@@ -73,7 +73,7 @@ header {
 #menu {
     list-style: none;
     display: flex;
-    background-color: light #808080;
+    background-color: #808080;
     padding: 0;
     margin: 0;
     font-size: 110%;
@@ -100,14 +100,14 @@ main {
     background: url("../images/banner.webp")no-repeat center center/cover;
     width: 100%;
     height: 400px;
-    box-shadow: 2px #71797E;
+    border: 2px solid #71797E;
     position: relative;
     margin-top: 110px;
 }
 
 /*text in picture*/
 #text {
-    background-color: #eedd82 #808080;
+    /* background-color: #eedd82 #808080; */
     /* background-color: #4e4a4a; */
     font-size: 160%;
     position: absolute;
@@ -185,7 +185,7 @@ section {
 
     #menu {
         display: flex;
-        background-color: light #be2222;
+        background-color: #808080;
     }
 
     #menu a {
@@ -283,7 +283,7 @@ section {
 
     #menu {
         display: flex;
-        background-color: light #808080;
+        background-color: #808080;
     }
 
     #menu a {
@@ -320,7 +320,7 @@ section {
         margin-bottom: 20px;
         width: 60%;
         align-items: center;
-        margin-top: 20;
+        margin-top: 20px;
         margin-left: 280px;
     }
 
