@@ -215,7 +215,7 @@ section {
     #menu a {
         text-decoration: none;
         color: #000000;
-        font-size: 20px;
+        font-size: 15px;
         display: flex;
         padding: 0;
     }
@@ -496,10 +496,11 @@ footer {
 
 .gallery_img {
     line-height: 2;
-    margin-top: 150px;
+    margin-top: 160px;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 5px 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .gallery_img img {
