@@ -45,9 +45,9 @@ Maintain the same layout, positioning, and design for the footer and menu throug
 
 ## Wirefram ##
 
-1. ![home page](readme-doc/home.png)
-2. ![gallery page](readme-doc/gallery.png)
-3. ![contactus page](readme-doc/contactus.png)
+1. ![home page](readme-doc/home.png){:width="200px" height="150px"}
+2. ![gallery page](readme-doc/gallery.png){:width="200px" height="150px"}
+3. ![contactus page](readme-doc/contactus.png){:width="200px" height="150px"}
 
 ## Technologies ##
 
