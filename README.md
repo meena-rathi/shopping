@@ -60,13 +60,21 @@ Test Case1:
 1)Click on the <https://8000-meena-rathi-shopping-t5i0p7g8wj.us2.codeanyapp.com/index.html>.
 2)click on the menu bar "home"
 3)And the redirected to the home pgae.
-4)It shows the banner and categories iamges and footer.
+4)It shows the banner and categories images and footer.
+ Browser : chrome
+ Actual result : it redirected to home pages.
+ Excepted result : It should be redirected to home page.
+ Status : Pass
 
 Test Case 2:
 1)Click on the <https://8000-meena-rathi-shopping-t5i0p7g8wj.us2.codeanyapp.com/index.html>.
 2)click on the menu bar "Galley"
 3)And the redirected to the Gallery page.
 4)It shows the categories of 8 images and footer.
+ Browser : chrome
+ Actual result : it shows the 8 images in gallery page.
+ Excepted result : It should be shows the 8 images in gallery page.
+ Status : pass
 
 Test Case 3:
 1)Click on the <https://8000-meena-rathi-shopping-t5i0p7g8wj.us2.codeanyapp.com/index.html>.
@@ -74,6 +82,10 @@ Test Case 3:
 3)And the redirected to the Signup page.
 4)Fill out the form and then click on the submit.
 5)this page redirected to confirmation page.
+ Browser : chrome
+ Actual result : when click on the submit button, the page rediected to anothe r page.
+ Excepted result :when click on the submit button, it should be redirected to anothe r page.
+ Status : pass
 
 Test Case 4:
 1)Click on the <https://8000-meena-rathi-shopping-t5i0p7g8wj.us2.codeanyapp.com/index.html>.
@@ -81,6 +93,10 @@ Test Case 4:
 3)And the redirected to the Signup page.s
 4)click on the footer icon.
 5)it redirected to new window(fb, twitter).
+ Browser : chrome
+ Actual result : when click on the footer icon, the page rediected to new window.
+ Excepted result : when click on the footer icon, the page should be rediected to new window.
+ Status : pass
 
 **Fixed Bugs**
 
@@ -105,6 +121,7 @@ Github
 I made a GitHub repository and set up a Codeanywhere workspace, pasting the repository into the workspace for use.
 
 Github Pages
+I used the GitHub Pages to deploy the project.
 
 **Credits**
 
