@@ -232,6 +232,7 @@ section {
 
     .gallery_img {
         column-count: 2;
+        margin-top: 80px;
         margin-right: 0;
         margin-left: 0;
 
@@ -273,13 +274,19 @@ section {
         margin-top: 50px;
         align-content: center;
         max-width: 100%;
-        padding: 10px;
+        padding: 1px;
         flex-direction: column;
     }
 
     #signup-form {
         max-width: 100%;
-        padding: 10px;
+        padding: 1px;
+    }
+
+    #title_container {
+
+        text-align: center;
+        margin: 0;
     }
 
     #map-container {
@@ -360,6 +367,8 @@ section {
         flex-direction: column;
         max-width: 100%;
         width: 100%;
+        margin-left: 0;
+        margin-right: 0;
         padding: 0 20px;
         position: relative;
     }
@@ -496,11 +505,11 @@ footer {
 
 .gallery_img {
     line-height: 2;
-    margin-top: 160px;
+    margin-top: 120px;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .gallery_img img {
