@@ -183,6 +183,30 @@ section {
         padding: 50px;
     }
 
+    #logo-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        width: 100%;
+        padding: 10px;
+    }
+
+    /*Logo*/
+    #logo {
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    /*anchor Tag*/
+    #logo-container a {
+        text-decoration: none;
+    }
+
+    #logo-container h1 {
+        color: #013220;
+    }
+
     #menu {
         display: flex;
         background-color: #808080;
@@ -208,6 +232,9 @@ section {
 
     .gallery_img {
         column-count: 2;
+        margin-right: 0;
+        margin-left: 0;
+
     }
 
     #banner {
@@ -472,6 +499,7 @@ footer {
     margin-top: 150px;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 5px 5px;
 }
 
 .gallery_img img {
