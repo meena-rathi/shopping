@@ -111,9 +111,9 @@ Test Case 4:
 
 **Supported Screen and browser**
 
-![home page](assets/readme-doc/cromebrowser.JPG)
-![home page](assets/readme-doc/miniipad_img.JPG)
-![home page](assets/readme-doc/mobile_img.JPG)
+![home page](assets/readme-doc/responsive.JPG)
+<!-- ![home page](assets/readme-doc/miniipad_img.JPG)
+![home page](assets/readme-doc/mobile_img.JPG) -->
 
 **Deployment**
 
