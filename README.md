@@ -45,15 +45,22 @@ Maintain the same layout, positioning, and design for the footer and menu throug
 
 ## Wirefram ##
 
-1. ![home page](readme-doc/home.png/width="200px" height="150px")
-2. ![gallery page](readme-doc/gallery.png){:width="200px" height="150px"}
-3. ![contactus page](readme-doc/contactus.png){:width="200px" height="150px"}
+1. ![home page](readme-doc/home.png")
+2. ![gallery page](readme-doc/gallery.png)
+3. ![contactus page](readme-doc/contactus.png)
 
 ## Technologies ##
 
-I have used Codeanywhere worksapce for developing the website, and Github.
+**hTML**
+I used html to develop the basic structure.
+**CSS**
+I used CSS for stling of the Project.
+**Github**
+I used to store the code.
+**CodeAnyWhere**
+I used codeanywhere to develop the website.
 
-**Testing**
+## Testing ##
 
 1. Code Validation:
    1. <https://validator.w3.org/nu/?doc=https%3A%2F%2Fmeena-rathi.github.io%2Fshopping%2Findex.html>
@@ -71,6 +78,7 @@ I have used Codeanywhere worksapce for developing the website, and Github.
    6. Actual result : it redirected to home pages.
    7. Excepted result : It should be redirected to home page.
    8. Status : Pass
+![home page](readme-doc/testcase_home.JPG")
 
 2. Test Case:
    1. Click on the <https://8000-meena-rathi-shopping-t5i0p7g8wj.us2.codeanyapp.com/index.html>.
@@ -81,6 +89,7 @@ I have used Codeanywhere worksapce for developing the website, and Github.
    6. Actual result : it shows the 8 images in gallery page.
    7. Excepted result : It should be shows the 8 images in gallery page.
    8. Status : pass
+![Gallery](readme-doc/testcase_gallery.JPG")
 
 3. Test Case:
    1. Click on the <https://8000-meena-rathi-shopping-t5i0p7g8wj.us2.codeanyapp.com/index.html>.
@@ -92,6 +101,7 @@ I have used Codeanywhere worksapce for developing the website, and Github.
    7. Actual result : when click on the submit button, the page rediected to anothe r page.
    8. Excepted result :when click on the submit button, it should be redirected to anothe r page.
    9. Status : Pass
+![contact Us](readme-doc/testcase_signup.JPG")
 
 4. Test Case:
    1. Click on the <https://8000-meena-rathi-shopping-t5i0p7g8wj.us2.codeanyapp.com/index.html>.
@@ -103,6 +113,7 @@ I have used Codeanywhere worksapce for developing the website, and Github.
    7. Actual result : when click on the footer icon, the page rediected to new window.
    8. Excepted result : when click on the footer icon, the page should be rediected to new window.
    9. Status : pass
+![footer](readme-doc/testcase_footer.JPG")
 
 ## Fixed Bugs ##
 
@@ -117,17 +128,29 @@ I have used Codeanywhere worksapce for developing the website, and Github.
 
 ## Supported Screen and browser ##
 
+1. The website is compatible with all devices.
+
 ![responsive](readme-doc/responsive.JPG)
 
 ## Deployment ##
 
 **Github**
-I made a GitHub repository and set up a Codeanywhere workspace, pasting the repository into the workspace for use.
+
+1. Locate the GitHub repository you need.
+2. Click the down arrow on the "Code" button.
+3. Copy the link provided in the dropdown.
+4. Open your preferred code editor (like Codeanywhere) and select the directory for the clone.
+5. In the terminal, use the command 'git clone' and paste the copied GitHub link.
+6. Press 'Enter' to create a local clone of the repository in your chosen directory.
 
 **Github Pages**
-I used the GitHub Pages to deploy the project.
+
+1. Open your GitHub account and go to the "Settings" tab of your repository.
+2. Choose the "Pages" section, select the main branch, and set the root directory.
+3. Once configured, the page will automatically refresh, displaying the deployment URL.
 
 ## Credits ##
 
 1. w3shool
-2. chatgpt
+**media**
+1. I gathered all images from the website <https://www.limelight.pk/>
