@@ -10,7 +10,7 @@ I, as a user,  want to visit the homepage to quickly understand the website's pu
 
 **Gallery**
 
-As a visitor, I want to browse the product categores.
+As a visitor, want to browse the product categores.
 
 **Contact Us**
 
