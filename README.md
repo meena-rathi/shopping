@@ -10,7 +10,7 @@ I, as a user,  want to visit the homepage to quickly understand the website's pu
 
 **Gallery**
 
-I, as a visitor, to see the categories of product.
+As a visitor, I want to browse the product categores.
 
 **Contact Us**
 
@@ -41,11 +41,11 @@ Maintain the same layout, positioning, and design for the footer and menu throug
 1. Font Family:
    1. The 'Lato' font family, a sans-serif typeface, has been selected for use across the website.
 2. Font Colors:
-    1. The color scheme for text is primarily green and gray.
+      1. The color scheme for text is primarily green and gray.
 
 ## Wirefram ##
 
-![home page](readme-doc/home.png")
+![home page](readme-doc/home.png)
 ![gallery page](readme-doc/gallery.png)
 ![contactus page](readme-doc/contactus.png)
 
@@ -89,9 +89,9 @@ I used codeanywhere to develop the website.
    6. Actual result : it shows the 8 images in gallery page.
    7. Excepted result : It should be shows the 8 images in gallery page.
    8. Status : pass
-![Gallery](readme-doc/testcase_gallery.JPG")
+![Gallery](readme-doc/testcase_gallery.JPG)
 
-3. Test Case:
+3. Test Ca
    1. Click on the <https://8000-meena-rathi-shopping-t5i0p7g8wj.us2.codeanyapp.com/index.html>.
    2. click on the menu bar "SignUp"
    3. And the redirected to the Signup page.
@@ -113,7 +113,7 @@ I used codeanywhere to develop the website.
    7. Actual result : when click on the footer icon, the page rediected to new window.
    8. Excepted result : when click on the footer icon, the page should be rediected to new window.
    9. Status : pass
-![footer](readme-doc/testcase_footer.JPG")
+![footer](readme-doc/testcase_footer.JPG)
 
 ## Fixed Bugs ##
 
