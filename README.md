@@ -45,9 +45,9 @@ Maintain the same layout, positioning, and design for the footer and menu throug
 
 ## Wirefram ##
 
-1. ![home page](readme-doc/home.png")
-2. ![gallery page](readme-doc/gallery.png)
-3. ![contactus page](readme-doc/contactus.png)
+![home page](readme-doc/home.png")
+![gallery page](readme-doc/gallery.png)
+![contactus page](readme-doc/contactus.png)
 
 ## Technologies ##
 
@@ -101,7 +101,7 @@ I used codeanywhere to develop the website.
    7. Actual result : when click on the submit button, the page rediected to anothe r page.
    8. Excepted result :when click on the submit button, it should be redirected to anothe r page.
    9. Status : Pass
-![contact Us](readme-doc/testcase_signup.JPG")
+![contact Us](readme-doc/textcase_signup.JPG)
 
 4. Test Case:
    1. Click on the <https://8000-meena-rathi-shopping-t5i0p7g8wj.us2.codeanyapp.com/index.html>.
