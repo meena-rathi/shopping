@@ -1,6 +1,6 @@
 ## Purpose of the project ##
 
-The purpose of my project is to create a basic e-commerce website consisting of three main pages: a homepage, a product catalog (gallery) page, and a contact us page. On the gallery page, customers can browse through the available products in the catalog, and on the contact us page, they can get in touch with us for any inquirie.
+The purpose of my project is to create a basic e-commerce website consisting of three main pages: a homepage, a product catalog (gallery) page, and a contact us page. On the gallery page, customers can browse through the available products in the catalog and on the contact us page they can get in touch with us for any inquiry.
 
 ## User Story ##
 
@@ -10,7 +10,7 @@ I, as a user,  want to visit the homepage to quickly understand the website's pu
 
 **Gallery**
 
-As a visitor, want to browse the product categores.
+As a visitor, want to browse the product categaries.
 
 **Contact Us**
 
@@ -21,7 +21,7 @@ I, as a visitor, to reach out to the company for business inquiries.
 **Home page**
 
 1. Navigation Menu: Include a navigation menu to access other sections of the website.
-2. Banner: In side the home page user can view the adversitment of colection.
+2. Banner: Inside the home page user can view the adversitment of colection.
 3. Social Icons: Display recognizable social media icons (e.g., Facebook, Twitter, Instagram) in the website's footer.
 Clickable Links: Make the social media icons clickable links that lead to your respective social media profiles.
 4. Social Media Integration: Ensure the links are properly configured to open in new tabs or windows, directing users to your social media pages.
@@ -33,8 +33,8 @@ Maintain the same layout, positioning, and design for the footer and menu throug
 
 **Contact Us**
 
-1. Contact Information: Provide contact information such as an email address or contact form.Include a welcoming message inviting users to get in touch for inquiries or assistance.
-2. It is also contain map.
+1. Contact Information: Provide contact information such as an email address or contact form. Include a welcoming message inviting users to get in touch for inquiries or assistance.
+2. It also contains the map.
 
 ## Typography and colorscheme ##
 
@@ -91,7 +91,7 @@ I used codeanywhere to develop the website.
    8. Status : pass
 ![Gallery](readme-doc/testcase_gallery.JPG)
 
-3. Test Ca
+3. Test Case:
    1. Click on the <https://8000-meena-rathi-shopping-t5i0p7g8wj.us2.codeanyapp.com/index.html>.
    2. click on the menu bar "SignUp"
    3. And the redirected to the Signup page.
@@ -124,7 +124,7 @@ I used codeanywhere to develop the website.
 5. Fixed css.
 6. Fixed the footer aligment.
 7. Fixedcolour code in css file.
-8. Fixed in ID,s and classess name in html file.
+8. Fixed in Id's and classess name in html file.
 
 ## Supported Screen and browser ##
 
