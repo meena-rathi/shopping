@@ -51,7 +51,7 @@ Maintain the same layout, positioning, and design for the footer and menu throug
 
 ## Technologies ##
 
-**hTML**
+**HTML**
 I used html to develop the basic structure.
 **CSS**
 I used CSS for stling of the Project.
@@ -78,7 +78,7 @@ I used codeanywhere to develop the website.
    6. Actual result : it redirected to home pages.
    7. Excepted result : It should be redirected to home page.
    8. Status : Pass
-![home page](readme-doc/testcase_home.JPG")
+![home page](readme-doc/testcase_home.JPG)
 
 2. Test Case:
    1. Click on the <https://8000-meena-rathi-shopping-t5i0p7g8wj.us2.codeanyapp.com/index.html>.
