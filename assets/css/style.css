@@ -177,7 +177,7 @@ section {
     color: #228B22
 }
 
-/* For tablets */
+/* For tablets
 @media (max-width: 991px) {
 
     #banner {
@@ -193,7 +193,7 @@ section {
         align-items: center;
 
     }
-}
+} */
 
 /*Mobile styles*/
 @media screen and (max-width: 767px) {
