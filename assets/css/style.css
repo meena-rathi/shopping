@@ -241,7 +241,7 @@ section {
     #banner {
         margin-top: 160px;
         background-size: contain;
-        max-height: 90px;
+        height: 90px;
         background-size: cover;
     }
 
