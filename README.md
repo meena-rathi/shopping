@@ -26,15 +26,20 @@ I, as a visitor, to reach out to the company for business inquiries.
 Clickable Links: Make the social media icons clickable links that lead to your respective social media profiles.
 4. Social Media Integration: Ensure the links are properly configured to open in new tabs or windows, directing users to your social media pages.
 Maintain the same layout, positioning, and design for the footer and menu throughout the entire website.
+![home page](readme-doc/header.JPG)
+![home page](readme-doc/heroimage.JPG)
+![home page](readme-doc/category.JPG)
+![home](readme-doc/footer.JPG)
 
 **Gallery**
 
 1. Product list: Display a list of available products.
-
+![Gallery](readme-doc/galleery.JPG)
 **Contact Us**
 
 1. Contact Information: Provide contact information such as an email address or contact form. Include a welcoming message inviting users to get in touch for inquiries or assistance.
 2. It also contains the map.
+   ![Contact us](readme-doc/contactus.png)
 
 ## Typography and colorscheme ##
 
@@ -163,6 +168,7 @@ Maintain the same layout, positioning, and design for the footer and menu throug
 ## Credits ##
 
 1. w3shool
+2. Love ruuning project
    
 **media**
 
