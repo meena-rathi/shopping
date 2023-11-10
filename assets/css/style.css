@@ -452,7 +452,7 @@ footer {
 
 #footer-icon li {
     padding: 5px;
-    color: rgb(29, 31, 29);
+    color: #3a3a3a;
 }
 
 #contact_us {
@@ -533,17 +533,19 @@ footer {
     width: 100%;
     margin-top: 20px;
 }
+
 .btn_add {
     text-align: center;
     padding: 10px 20px;
     background-color: #3a3a3a;
-    color: white;
+    color: #ffffff;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
     border: 1px #000000;
     border-radius: 2px;
 }
+
 /*Map*/
 #map-container {
     width: 100%;
