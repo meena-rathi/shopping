@@ -52,13 +52,20 @@ Maintain the same layout, positioning, and design for the footer and menu throug
 ## Technologies ##
 
 **HTML**
-I used html to develop the basic structure.
+
+1. I used html to develop the basic structure.
+
 **CSS**
-I used CSS for stling of the Project.
+
+1. I used CSS for stling of the Project.
+
 **Github**
-I used to store the code.
+
+1. I used to store the code.
+
 **CodeAnyWhere**
-I used codeanywhere to develop the website.
+
+1. I used codeanywhere to develop the website.
 
 ## Testing ##
 
@@ -66,6 +73,7 @@ I used codeanywhere to develop the website.
    1. <https://validator.w3.org/nu/?doc=https%3A%2F%2Fmeena-rathi.github.io%2Fshopping%2Findex.html>
    2. <https://validator.w3.org/nu/?doc=https%3A%2F%2Fmeena-rathi.github.io%2Fshopping%2Fgallery.html>
    3. <https://validator.w3.org/nu/?doc=https%3A%2F%2Fmeena-rathi.github.io%2Fshopping%2Fsignup.html>
+   4. <https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmeena-rathi.github.io%2Fshopping%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en>
 
 **Test cases**
 
@@ -148,9 +156,12 @@ I used codeanywhere to develop the website.
 1. Open your GitHub account and go to the "Settings" tab of your repository.
 2. Choose the "Pages" section, select the main branch, and set the root directory.
 3. Once configured, the page will automatically refresh, displaying the deployment URL.
+4. https://meena-rathi.github.io/shopping/
 
 ## Credits ##
 
 1. w3shool
+   
 **media**
+
 1. I gathered all images from the website <https://www.limelight.pk/>
