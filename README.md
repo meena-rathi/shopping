@@ -39,7 +39,7 @@ Maintain the same layout, positioning, and design for the footer and menu throug
 
 1. Contact Information: Provide contact information such as an email address or contact form. Include a welcoming message inviting users to get in touch for inquiries or assistance.
 2. It also contains the map.
-   ![Contact us](readme-doc/contactus.png)
+   ![Contact us](readme-doc/signup.JPG)
 
 ## Typography and colorscheme ##
 
