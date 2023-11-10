@@ -81,6 +81,7 @@ Maintain the same layout, positioning, and design for the footer and menu throug
    3. <https://validator.w3.org/nu/?doc=https%3A%2F%2Fmeena-rathi.github.io%2Fshopping%2Fgallery.html>
    3. <https://validator.w3.org/nu/?doc=https%3A%2F%2Fmeena-rathi.github.io%2Fshopping%2Fsignup.html>
    4. <https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmeena-rathi.github.io%2Fshopping%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en>
+2. ![Performance](readme-doc/performace.jpg)
 
 **Test cases**
 
